@@ -1,0 +1,14 @@
+.product img{
+width: 280px;
+height: 280px;
+border: 1px solid gray;
+
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   margin: 30px;
+    height: 500px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
