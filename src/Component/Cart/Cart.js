@@ -6,7 +6,7 @@ import Random from '../Random/Random';
 
 const Cart = (props) => {
     // console.log(props);
-    const { addToCart } = props;
+    const { addToCart, removeAll } = props;
     //console.log(addToCart);
     // const randomNumber = Math.round(Math.random() * (addToCart.length - 1));
     // console.log(randomNumber);
@@ -29,7 +29,7 @@ const Cart = (props) => {
                 addToCart[Math.round(Math.random() * (addToCart.length - 1))]
             )} >
                 Choose 1 For Me</button><br /><br />
-            <button>Choose Again</button>
+            <button onClick={() => removeAll(random)}>Choose Again</button>
             <div className='random'>
                 <img src={random.img} alt="" />
                 <h5>{random.name}</h5>

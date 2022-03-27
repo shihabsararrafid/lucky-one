@@ -57,6 +57,9 @@ const Shop = () => {
 
 
     }
+    const removeAll = (random) => {
+        setAddId([]);
+    }
     //console.log(addId);
 
 
@@ -73,7 +76,7 @@ const Shop = () => {
 
             <div className="cart-details">
 
-                <Cart addToCart={addId}></Cart>
+                <Cart addToCart={addId} removeAll={removeAll}></Cart>
                 <Random></Random>
             </div>
         </div>
