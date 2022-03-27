@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my First Project with React [Lucky One assignment](https://lucky-one-rafid.netlify.app/).
 
 ## Available Scripts
 
