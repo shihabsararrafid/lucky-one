@@ -15,3 +15,11 @@
 .cart{
     margin-left: 20px;
 }
+.random{
+    display: flex;
+}
+.random img{
+    width: 70px;
+    border-radius: 50%;
+
+}

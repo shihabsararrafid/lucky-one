@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Shop.css';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
+import Random from '../Random/Random';
 
 const Shop = () => {
     const [products, setproducts] = useState([]);
@@ -73,6 +74,7 @@ const Shop = () => {
             <div className="cart-details">
 
                 <Cart addToCart={addId}></Cart>
+                <Random></Random>
             </div>
         </div>
     );
