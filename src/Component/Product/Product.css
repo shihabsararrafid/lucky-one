@@ -28,7 +28,7 @@ margin: 0 auto;
     font-size: 1.2rem;
     background-color: rgb(134, 108, 158);
     border-radius: 0 0 8px 8px;
-    color: wheat;
+    color: white;
 }
 .addToBtn:hover{
     background-color: rgb(93, 41, 141);
