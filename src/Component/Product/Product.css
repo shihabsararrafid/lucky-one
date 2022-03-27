@@ -1,14 +1,36 @@
 .product img{
-width: 280px;
-height: 280px;
-border: 1px solid gray;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 1px solid rgb(93, 41, 141);
+
+display: block;
+margin: 0 auto;
 
 }
+.product img:hover{
+    background-color: blueviolet;
+}
 .product{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-   margin: 30px;
+   
+  
     height: 500px;
     border: 2px solid gray;
+    border-radius: 10px;
     box-sizing: border-box;
+    position: relative;
+}
+.addToBtn{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2rem;
+    background-color: rgb(134, 108, 158);
+    border-radius: 0 0 8px 8px;
+    color: wheat;
+}
+.addToBtn:hover{
+    background-color: rgb(93, 41, 141);
+    color: white;
 }
