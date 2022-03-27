@@ -1,0 +1,17 @@
+.cart button{
+    width: 85%;
+    height: 50px;
+    outline: none;
+    border: 3px solid rgb(143, 17, 216);
+    border-radius: 10px;
+    font-size: 1.3em;
+    color:rgb(143, 17, 216) ;
+    background-color: white;
+}
+.cart button:hover{
+    background-color:rgb(143, 17, 216);
+    color: white;
+}
+.cart{
+    margin-left: 20px;
+}
