@@ -1,0 +1,10 @@
+.showCart img{
+    width: 60px;
+    border: 1px solid rgb(76, 26, 117);
+    border-radius: 50%;
+}
+.showCart{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
