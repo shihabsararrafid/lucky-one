@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# LUCKY ONE ASSIGNMENT
 
 This project is my First Project with React [Lucky One assignment](https://lucky-one-rafid.netlify.app/).
 
