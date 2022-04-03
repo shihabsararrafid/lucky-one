@@ -80,12 +80,7 @@ const Shop = () => {
                 <Random></Random>
 
             </div>
-            <div>
-                <h1>How React works?</h1>
-                <p>React works by creating virtual dom which is quite similar to the real dom displaying in the UI, it is because updating the UI is quite costly and time killing , so react introduces virtual dom to update it fast. It uses diff algorithm to find the differences made to the UI and then according to the data it updates the UI.Moreover ,It send data unidirectionally</p>
-                <h1>Diffen=rence Between Props And state</h1>
-                <p>props is read only .State can be modified using this.setState.Props can not be modified.State changes can be asynchronous. The component in which state is situated is called a stateful component. </p>
-            </div>
+
         </div>
     );
 };

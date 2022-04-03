@@ -31,6 +31,7 @@ const Cart = (props) => {
                 Choose 1 For Me</button><br /><br />
             <button onClick={() => removeAll(random)}>Choose Again</button>
             <div className='random'>
+
                 <img src={random.img} alt="" />
                 <h5>{random.name}</h5>
             </div>
