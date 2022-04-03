@@ -77,6 +77,7 @@ const Shop = () => {
             <div className="cart-details">
 
                 <Cart addToCart={addId} removeAll={removeAll}></Cart>
+
                 <Random></Random>
 
             </div>
